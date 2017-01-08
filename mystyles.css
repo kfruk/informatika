@@ -53,6 +53,19 @@ header{
 	margin:200px 200px 200px 200px;
 }
 
+.video{
+	width:20%;
+	float:right;
+	margin:0 100px;
+}
+
+.opis{
+	margin:10px 0px 10px 10px;
+	text-align:center;
+	color:pink;
+}
+
+
 
 
 
