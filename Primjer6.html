@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<title>Grad Osijek</title>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="mystyles1.css" media="screen" />
+</head>
+
+	<header><img src="headerOsijek031.jpg" alt="Logo Osijek031"></header><br><br><br>
+
+	<div class="Linkovi">
+		<ul>
+			<li><a class="Link" href="http://www.osijek031.com/" target="_blank">Novosti</a></li>
+			<li><a href="http://www.osijek031.com/osijek.php?cat_id=13" target="_blank">Gospodarstvo</a></li>
+			<li><a href="http://www.osijek031.com/osijek.php?cat_id=1" target="_blank">Kultura</a></li>
+			<li><a href="http://www.osijek031.com/osijek.php?cat_id=3" target="_blank">Noćni život</a></li>
+		</ul>
+	</div>
+
+	<div class="Tekst">
+		<h1 class="Naslov"><u><b>Blagdanski tjedan!</u></b></h1>
+		<h3 class="Podnaslov"><i><b>Aktivnosti u Osijeku</i></b></h3>
+		<p class="Opis">Blagdansko je vrijeme idealno za zabavu.<br> U Osijeku postoje brojne aktivnosti i događanja koji ljudima služe kao odmor od svakodnevnih obveza i kao odmak od sveprisutnih problema.<br> U nastavku izdvajamo<strong> TOP 3 </strong>događaja koja vrijedi posjetiti:</br>
+		<p><a href="http://www.putovnica.net/dogadanja/advent-bozicni-sajam-osijek"><center><em><b>Advent u Tvrđi</center></em></b></a> 
+		<a href="http://www.gpp-osijek.com/view_post.php?id=172"><center><em><b>Virtualna stvarnost u tramvaju</center></em></b></a> 
+		<a href="http://www.tzosijek.hr/bozicna-bajka-u-osjeckom-tramvaju-463"><center><em><b>Božićna bajka</center></em></b></a></p>
+	</div>
+
+	<div class="Video">
+		<video src="movie.mp4" alt="Medvjed u vodi", controls>Video</video>
+		<p class="OpisSlika">Medvjed u vodi</p>
+		
+	</div>
+
+<div id="map" style="width:73%;height:350px"></div>
+
+<script>
+	function myMap() {
+  		var mapCanvas = document.getElementById("map");
+  		var mapOptions = {
+    	center: new google.maps.LatLng(45.5541111, 18.6938889), 
+   		zoom: 14
+  	}
+  	var map = new google.maps.Map(mapCanvas, mapOptions);
+	}
+</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+	
+	
+	
+	<footer><center>Copyright &copy; Kristina Fruk</center></footer>
+
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,50 @@
+header{
+	text-align:center;
+}
+ul{
+	list-style-type:none;
+}
+.Linkovi{
+	width:15%;
+	float:left;
+	font-family: Bookman Old Style;
+	font-size:22px;
+}
+.Tekst{
+	width:40%;
+	float:left;
+	margin:0 75px 50px 150px;
+	font-family:Bookman Old Style;
+	text-align:center;
+}
+.Naslov{
+	text-decoration:underline;
+	color:hotpink;
+}
+.Video{
+	width:90%;
+	float:center;
+	margin:0 100px;
+}
+a:link{
+	color: red;
+}
+a:visited{
+	color: hotpink;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: fuchsia;
+}
+.OpisSlika{
+	font-style:italic;
+	margin:5px 0px 5px 5px;
+	text-align:center;
+	color:hotpink;
+}
+#map{
+	width:100%;
+	margin:200px 200px 200px 200px;
+}
